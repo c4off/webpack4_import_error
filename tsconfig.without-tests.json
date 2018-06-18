@@ -1,0 +1,12 @@
+{
+	"extends": "./tsconfig",
+	"compilerOptions": {
+		"declaration": false
+	},
+	"exclude": [
+		"**/node_modules/*",
+		"./static_dev",
+		"./static/bundles",
+		"./tests"
+	]
+}

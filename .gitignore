@@ -1,0 +1,5 @@
+/.idea/*
+/static/bundles/*
+/node_modules/*
+/.npmrc
+/webpack_stats.json

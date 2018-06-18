@@ -1,0 +1,12 @@
+{
+  "presets": ["latest"],
+  "plugins": [
+    "transform-object-rest-spread",
+    "add-module-exports",
+    "syntax-dynamic-import",
+    ["transform-runtime", {
+      "polyfill": false,
+      "helpers": false
+    }]
+  ]
+}
